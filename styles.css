@@ -48,7 +48,7 @@ body {
 
 #dates {
   margin: 0;
-  margin-top: 2.5%;
+  margin-top: 4.0%;
   padding: 5px;
   background-color: #940c2e;
   color: #efefef;
@@ -57,6 +57,73 @@ body {
   box-sizing: border-box;
   width: 100%;
 }
+
+/* Estilos para los formularios */
+#formularios {
+  background-color: #be0030;
+  margin-top: -25px;
+  padding: 60px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#personal-info-form {
+  width: 30%;
+  margin: 80px;
+}
+
+#preferences-form {
+  width: 30%;
+  margin: 80px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form h3 {
+  margin-top: 0;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="checkbox"],
+form input[type="radio"] {
+  margin-right: 5px;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
 
 /* PERFUMES DE HOMBRE */
 .product-section {
