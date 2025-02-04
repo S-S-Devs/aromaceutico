@@ -133,3 +133,18 @@ body {
   grid-column: span 2;
   grid-row: span 2;
 }
+
+/* PERFUMES DE MUJER */
+.woman-grid .product {
+  background-color: #800020;
+}
+
+.woman-grid .product.large {
+  grid-column: span 2;
+}
+
+.woman-grid .product.medium {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
