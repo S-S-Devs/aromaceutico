@@ -80,7 +80,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #800020;
+  background-color: #b42b4d;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
@@ -136,7 +136,7 @@ body {
 
 /* PERFUMES DE MUJER */
 .woman-grid .product {
-  background-color: #800020;
+  background-color: #b42b4d;
 }
 
 .woman-grid .product.large {
@@ -148,3 +148,35 @@ body {
   grid-row: span 1;
 }
 
+/* FOOTER */
+.footer {
+  background-color: #800020;
+  color: #efefef;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 5%;
+}
+
+.footer-column {
+  max-width: 300px;
+}
+
+.footer-column h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer i{
+  margin: 5px;
+}
+
+.footer-column p, .footer-column a {
+  margin: 5px 0;
+  color: #efefef;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  color: #000000;
+}
